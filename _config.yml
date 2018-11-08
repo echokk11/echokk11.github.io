@@ -1,10 +1,10 @@
 # Site settings
-title: Wuk Blog
-SEOTitle: Wuk Blog
+title: I AM NOT AlphaBet OR OpenAI
+SEOTitle: I AM NOT AlphaBet OR OpenAI
 header-img: img/home-bg.jpg
 email: wukairobin@gmail.com
-description: "关于全栈、摄影与健身 | I am not just a programmer"
-keyword: "I am not just a programmer, echokk11, Wuk"
+description: "关于全栈、摄影与健身 | I am not just a programmer | geek is not me"
+keyword: "I am not just a programmer, geek is not me, echoops, echokk11, Wuk, bet-ai"
 url: "https://bet-ai.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,8 +12,8 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: true
-weibo_username: hzface
-zhihu_username: echoops
+# weibo_username: hzface
+# zhihu_username: echoops
 github_username: echokk11
 twitter_username: iterator_wu
 facebook_username:  echokk11
@@ -60,14 +60,14 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-116919916-1'            # Format: UA-xxxxxx-xx
-ga_domain: tech.eegrowup.com
+# ga_track_id: 'UA-116919916-1'            # Format: UA-xxxxxx-xx
+# ga_domain: tech.eegrowup.com
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我觉得我是个艺术家！"
+sidebar-about-description: "Geek is not me！"
 sidebar-avatar: /img/avatar.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
