@@ -57,11 +57,11 @@ netease_comment: false
 
 # Analytics settings
 # Baidu Analytics 
-ba_track_id: 0c650ff9343363fb31afc90a2749fd6d
+# ba_track_id: [your track id]
 
 # Google Analytics
-# ga_track_id: 'UA-116919916-1'            # Format: UA-xxxxxx-xx
-# ga_domain: tech.eegrowup.com
+ga_track_id: 'UA-116919916-1'            # Format: UA-xxxxxx-xx
+ga_domain: bet-ai.com
 
 
 
