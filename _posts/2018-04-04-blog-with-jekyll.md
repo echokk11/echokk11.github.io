@@ -1,13 +1,12 @@
 ---
 author: Wuk
-date: 2018-04-04 11:42:32+00:00
 layout: post
 title: 利用github-pages和jekyll搭建自己的博客系统
 subtitle: 免费且支持markdown语法的博客搭建
 catalog: true
 tags:
-- github-pages
-- jekyll
+  - github-pages
+  - jekyll
 ---
 
 > programmer都喜欢各种折腾，不折腾，骨子里会难受

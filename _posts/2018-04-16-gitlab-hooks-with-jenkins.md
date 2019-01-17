@@ -1,16 +1,15 @@
 ---
 author: Wuk
-date: 2018-04-16 18:30:00+00:00
 layout: post
 title: 利用gitlab的webhooks自动触发jenkins-ci构建
 subtitle: 也顺便说说gitlab-ci
 catalog: true
 tags:
-- ci
-- gitlab
-- gitlab-ci
-- webhooks
-- jenkins
+  - ci
+  - gitlab
+  - gitlab-ci
+  - webhooks
+  - jenkins
 ---
 
 > 不知道怎么用CI工具，还敢自称code dog？

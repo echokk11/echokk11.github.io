@@ -1,12 +1,11 @@
 ---
 author: Wuk
-date: 2018-04-11 17:38:00+00:00
 layout: post
 title: 纯js玩转人脸识别并标识出关键点
 subtitle: 利用百度AI识别人脸
 tags:
-- 人脸识别
-- canvas
+  - 人脸识别
+  - canvas
 ---
 
 > 受到深度学习和神经网络的影响，人脸识别正在普及，到底是怎么个东西？
