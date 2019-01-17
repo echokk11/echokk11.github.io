@@ -39,4 +39,4 @@ update，最后点击右下角`Create pull request`
 3. commit and push到github
 4. 点击fork项目的左上角的`New pull request`，后续步骤和fork的更新相同（除去`switching the base`）
 
-[官方说明](https://help.github.com/articles/creating-a-pull-request/)
+[官方说明文档在此，点击查看！！！](https://help.github.com/articles/creating-a-pull-request/)
