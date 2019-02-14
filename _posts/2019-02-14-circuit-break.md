@@ -113,7 +113,7 @@ consumer 如果发现某个provider出现异常情况，比如，经常超时(�
 
 ```java
 try {
-    if (atomic.incrementAndGet() > 限流数) {
+    if (atomic.incrementAndGet() > limit) {
         //拒绝请求
     }
     //处理请求
@@ -121,6 +121,17 @@ try {
     atomic.decrementAndGet();
 }
 ```
+
+```java
+Semaphore semaphore = new Semaphore(5);
+try {
+    semaphore.acquire();
+    //处理请求
+    semaphore.release();
+}
+```
+
+
 
 #### 单位时间的限流
 
@@ -164,14 +175,14 @@ private static final String API_WEB_COUNTER_KEY = "counter_key";
 
 //1秒的时间已经过了，重新对time_key赋值，同时初始化计数变量
 if(!cacheDao.hasKey(API_WEB_TIME_KEY)) {
-     cacheDao.putToValue(API_WEB_TIME_KEY,0,(long)1, TimeUnit.SECONDS);
-     cacheDao.putToValue(API_WEB_COUNTER_KEY,0,(long)2, TimeUnit.SECONDS);//时间到就重新初始化为0
+    cacheDao.putToValue(API_WEB_TIME_KEY,0,(long)1, TimeUnit.SECONDS);
+	cacheDao.putToValue(API_WEB_COUNTER_KEY,0,(long)2, TimeUnit.SECONDS);//时间到就重新初始化为0
 }
 
 //如果大于最大请求数量，直接打logger,返回
 if(cacheDao.hasKey(API_WEB_TIME_KEY)&&cacheDao.incrBy(API_WEB_COUNTER_KEY,(long)1) > (long)400) {
-       LOGGER.info("调用频率过快");
-       return;
+    LOGGER.info("调用频率过快");
+	return;
 }
 
 //短信发送逻辑
@@ -204,7 +215,7 @@ Guava RateLimiter提供的令牌桶算法可用于平滑突发限流（SmoothBur
    ```java
    private RateLimiter rateLimiter = RateLimiter.create(400);//400表示每秒允许处理的量是400
    if(rateLimiter.tryAcquire()) {
-       //短信发送逻辑可以在此处
+   	//短信发送逻辑可以在此处
    
    }
    ```
@@ -231,7 +242,7 @@ Guava RateLimiter提供的令牌桶算法可用于平滑突发限流（SmoothBur
    }
    ```
 
-   
+   平滑预热限流的耗时是慢慢趋近平均值的。
 
 
 参考
