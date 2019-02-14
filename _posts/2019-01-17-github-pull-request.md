@@ -6,7 +6,6 @@ subtitle: "以及如何更新fork的的项目"
 catalog: true
 header-style: text
 tags:
-  - github
   - "pull request"
   - fork
 ---

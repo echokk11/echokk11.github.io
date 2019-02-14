@@ -5,9 +5,7 @@ title: Tomcat9开启HTTP/2.0支持
 subtitle: 下一代HTTP协议，大幅度提升web服务性能
 catalog: true
 tags:
-  - HTTP/2
-  - tomcat9
-  - ssl
+  - HTTP2
 ---
 
 ## HTTP/2

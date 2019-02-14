@@ -5,8 +5,6 @@ title: 利用gitlab的webhooks自动触发jenkins-ci构建
 subtitle: 也顺便说说gitlab-ci
 catalog: true
 tags:
-  - ci
-  - gitlab
   - gitlab-ci
   - webhooks
   - jenkins
