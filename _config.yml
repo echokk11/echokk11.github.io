@@ -4,8 +4,8 @@ SEOTitle: I AM NOT AlphaBet OR OpenAI
 header-img: img/post-bg-unix-linux.jpg
 email: wukairobin@gmail.com
 description: "关于全栈、摄影与健身 | I am not just a programmer | geek is not me"
-keyword: "I am not just a programmer, geek is not me, echoops, echokk11, Wuk, bet-ai"
-url: "https://bet-ai.com"              # your host, for absolute URL
+keyword: "I am not just a programmer, geek is not me, echoops, echokk11, Wuk"
+url: "https://echokk11.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: 'UA-116919916-1'            # Format: UA-xxxxxx-xx
-ga_domain: bet-ai.com
+ga_domain: echokk11.github.io
 
 
 
